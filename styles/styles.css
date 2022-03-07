@@ -78,3 +78,29 @@ footer img {
   height: 2em;
 }
 
+
+
+.contact-info {
+ width: 50%;
+ text-align: center;
+}
+
+.contact-text {
+  background-color: red;
+}
+
+.box1 {
+  width: 199px;
+}
+
+.box2 {
+  width: 200px;
+}
+
+.box3 {
+  width: 237px;
+}
+
+.box4 {
+  width: 230px;
+}
