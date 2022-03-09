@@ -9,8 +9,9 @@ margin-bottom: 1em;
 padding-bottom: 1em;
 }
 
-h2,
-p {
+
+.container1 p,
+.container1 h2 {
   margin-left: 1em;
 }
 

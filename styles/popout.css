@@ -1,10 +1,20 @@
 .menu1 {
   position: absolute;
   background-color: green;
-  top: 150px;
+  top: 137px;
   margin: auto;
   text-align: center;
   padding: 15px;
+  width: 125px;
+  font-size: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu1 p {
+  margin: 0;
+  padding: 0;
 }
 
 .menu2 {
@@ -14,6 +24,7 @@
   margin: auto;
   text-align: center;
   padding: 15px;
+  width: 125px;
 }
 
 .menu3 {
@@ -23,6 +34,7 @@
   margin: auto;
   text-align: center;
   padding: 15px;
+  width: 125px;
 }
 
 .menu4 {
@@ -32,6 +44,7 @@
   margin: auto;
   text-align: center;
   padding: 15px;
+  width: 125px;
 }
 
 .menu5 {
@@ -41,6 +54,11 @@
   margin: auto;
   text-align: center;
   padding: 15px;
+  width: 125px;
+}
+
+.show {
+  display: none;
 }
 
 a {
