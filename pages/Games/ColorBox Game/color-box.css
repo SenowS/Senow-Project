@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  border: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.colorBox {
+  border: 1px solid black;
+  float: left;
+  height: 20%;
+  padding-top: 5em;
+  text-align: center;
+  width: 25%;
+}
+
+.colorpicker {
+  background-color: skyblue;
+  padding: 3em;
+  text-align: center;
+  width: 100%;
+}

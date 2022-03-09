@@ -1,0 +1,49 @@
+.menu1 {
+  position: absolute;
+  background-color: green;
+  top: 150px;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+}
+
+.menu2 {
+  position: absolute;
+  background-color: lightblue;
+  top: 200px;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+}
+
+.menu3 {
+  position: absolute;
+  background-color: lightpink;
+  top: 250px;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+}
+
+.menu4 {
+  position: absolute;
+  background-color: lightcoral;
+  top: 300px;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+}
+
+.menu5 {
+  position: absolute;
+  background-color: lightyellow;
+  top: 350px;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black; 
+}
