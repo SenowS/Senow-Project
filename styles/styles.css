@@ -114,3 +114,14 @@ footer img {
   width: 100%;
   text-align: center;
 }
+
+.contact-about img {
+  width: 950px;
+  height: 500px;
+}
+
+.contact-info button {
+  background-color: skyblue;
+  padding: 1em;
+  border-radius: 15%;
+}
