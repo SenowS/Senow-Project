@@ -8,9 +8,15 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.container {
+.container1 {
   margin: 0 auto;
   width: 100%;
+  display: flex;
+}
+
+.container1 p {
+  margin-bottom: 2em;
+  text-indent: 40px;
 }
 
 header {
@@ -64,10 +70,7 @@ nav a {
   border-radius: 65%;
 }
 
-p {
-  margin-bottom: 2em;
-  text-indent: 40px;
-}
+
 
 footer {
   background-color: purple;
@@ -79,14 +82,16 @@ footer img {
 }
 
 
-
 .contact-info {
  width: 50%;
- text-align: center;
 }
 
 .contact-text {
-  background-color: red;
+  text-align: center;
+}
+
+.contact-info p {
+  text-align: center;
 }
 
 .box1 {
@@ -103,4 +108,9 @@ footer img {
 
 .box4 {
   width: 230px;
+}
+
+.contact-about {
+  width: 100%;
+  text-align: center;
 }
