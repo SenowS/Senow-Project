@@ -11,12 +11,20 @@ body {
 .container1 {
   margin: 0 auto;
   width: 100%;
-  display: flex;
 }
 
 .container1 p {
   margin-bottom: 2em;
   text-indent: 40px;
+}
+
+.container1 img {
+  height: 12em;
+  margin-right: 50px;
+}
+
+.self-image {
+  text-align: center;
 }
 
 header {
@@ -63,14 +71,6 @@ nav a {
   margin-bottom: 1em;
   padding-top: 1em;
 }
-
-.content img {
-  height: 12em;
-  float: right;
-  border-radius: 65%;
-}
-
-
 
 footer {
   background-color: purple;
