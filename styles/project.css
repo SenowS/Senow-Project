@@ -1,0 +1,19 @@
+.project-image {
+  text-align: center;
+}
+
+.code-content {
+border: solid black;
+margin-top: 1em;
+margin-bottom: 1em;
+padding-bottom: 1em;
+}
+
+h2,
+p {
+  margin-left: 1em;
+}
+
+.code-content img {
+  height: 400px;
+}
