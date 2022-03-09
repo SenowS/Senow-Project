@@ -1,0 +1,20 @@
+{
+  "name": "senow",
+  "version": "1.0.0",
+  "description": "About Shaun Senow\r =================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SenowS/Senow-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SenowS/Senow-Project/issues"
+  },
+  "homepage": "https://github.com/SenowS/Senow-Project#readme"
+}
