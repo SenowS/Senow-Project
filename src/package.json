@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SenowS/Senow-Project/issues"
   },
-  "homepage": "https://github.com/SenowS/Senow-Project#readme"
+  "homepage": "https://github.com/SenowS/Senow-Project#readme",
+  "dependencies": {
+    "imagemin": "^8.0.1"
+  }
 }

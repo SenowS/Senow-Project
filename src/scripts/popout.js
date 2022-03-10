@@ -3,7 +3,7 @@ let menuItems = document.querySelectorAll('.menu-item');
 
 function toggleMenu() {
   for (let i =0; i < menuItems.length; i++) {
-    menuItems[i].classList.toggle('show');
+    menuItems[i].classList.toggle('showitem');
   }
 };
 
