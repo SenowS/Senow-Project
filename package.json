@@ -1,0 +1,23 @@
+{
+  "name": "senow",
+  "scripts": {
+    "minify-images": "imagemin src/images/* --out-dir=dist/images",
+    "build:css": "cleancss src/styles/*.css -o dist/css/style.css",
+    "build:js": "uglifyjs src/scripts/*.js -o dist/js/main.js",
+    "copy:html": "cp src/pages/*.html dist",
+    "create-dir": "npx mkdirp dist/js",
+    "build:all": "npm run create-dir && npm run build:css && npm run build:js && npm run copy:html && npm run minify-images"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SenowS/Senow-Project.git"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.5.2",
+    "imagemin-cli": "^7.0.0",
+    "uglify-js": "^3.15.2"
+  },
+  "dependencies": {
+    "mkdirp": "^1.0.4"
+  }
+}
