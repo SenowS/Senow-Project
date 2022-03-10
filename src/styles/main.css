@@ -8,17 +8,17 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.container1 {
+.container-about {
   margin: 0 auto;
-  width: 100%;
+  width: 1200px;
 }
 
-.container1 p {
+.container-about p {
   margin-bottom: 2em;
   text-indent: 40px;
 }
 
-.container1 img {
+.container-about img {
   height: 12em;
   margin-right: 50px;
 }
