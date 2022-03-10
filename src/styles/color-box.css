@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body, html {
+#colorbox-body, html {
   border: none;
   height: 100%;
   margin: 0;
