@@ -50,7 +50,7 @@ let shuffle = function(array) {
   }
 
   return array;
-}
+};
 
 function toggleShow(event){
   if (showingCard == false) {
@@ -59,7 +59,7 @@ function toggleShow(event){
     showingCard = false;
   }
   event.target.classList.toggle('show');
-}
+};
 
 function toggleMatch(event){
   event.target.classList.toggle('matched');    
@@ -68,7 +68,7 @@ function toggleMatch(event){
   if (allBoxesMatched()){
     alert (`You won the game! And it only took you: ${clickNumber} clicks!`)
   }
-}
+};
 
 function revealCard(event) {
   if (event.target.className === "card" && !showingCard) {
@@ -81,7 +81,7 @@ function revealCard(event) {
    clickNumber++;
   }
   clicks.textContent = clickNumber;
-}
+};
 
 function allBoxesMatched() { 
   let allBoxesMatched = true;
@@ -90,7 +90,7 @@ function allBoxesMatched() {
       allBoxesMatched = false;
   }
   return allBoxesMatched;
-}
+};
 
 initializeGame();
 
@@ -108,5 +108,5 @@ function initializeGame() {
   for (let i = 0; i < allMatched.length; i++){
     allMatched[i].className = "card";
   }
-}
+};
 

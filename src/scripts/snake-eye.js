@@ -16,7 +16,7 @@ let runningTotal2 = 0;
 //Global Functions
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max+1 - min)) + min;
-}
+};
 
 //Number validation code
 while (!numberValid) {
@@ -26,7 +26,7 @@ while (!numberValid) {
   } else {
   alert("You have entered an invalid number! Number must be 3 or higher!")
   }
-}
+};
 
 //Dice Rolling and Statistic Code
 while (!snakeEyes) {
@@ -44,7 +44,7 @@ while (!snakeEyes) {
   }
   runningTotal1 += diceRoll1;
   runningTotal2 += diceRoll2;
-}
+};
 
 //Final average calculation
 averageRoll1 = runningTotal1 / rollNumber;

@@ -161,12 +161,12 @@ const colors = [
     newOption.value = colors[i];
     newOption.innerText = colors[i];
     colorSelect.appendChild(newOption);
-  }
+  };
   
 //List of functions
 function randomColor() { //Used to generate random color
    return 'rgb(' + Math.floor(Math.random()*255) + ',' + Math.floor(Math.random()*255) + ',' + Math.floor(Math.random()*255) + ')';
-}
+};
 
 function allBoxesFilled() { //Checks to see if boxes are full
   let allBoxesFilled = true;
@@ -175,7 +175,7 @@ function allBoxesFilled() { //Checks to see if boxes are full
       allBoxesFilled = false;
   }
   return allBoxesFilled;
-}
+};
 
 function bgChange(event) { //Changes background color
   if (event.target.className === 'colorBox' && event.target.style.backgroundColor === "") {
@@ -189,7 +189,7 @@ function bgChange(event) { //Changes background color
       alert ("All Boxes have been filled!")
     }
   }
-}
+};
 
 //Event listener
 document.querySelector('body').addEventListener('click', bgChange);
