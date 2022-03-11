@@ -7,7 +7,7 @@
     "copy:html": "cp src/pages/*.html dist/pages",
     "copy:index": "cp src/index.html dist",
     "create-dir": "npx mkdirp dist/js && npx mkdirp dist/pages",
-    "build:all": "npm run create-dir && npm run build:css && npm run build:js && npm run copy:html && npm run minify-images"
+    "build:all": "npm run create-dir && npm run build:css && npm run build:js && npm run copy:html && npm run minify-images && npm run copy:index"
   },
   "repository": {
     "type": "git",
