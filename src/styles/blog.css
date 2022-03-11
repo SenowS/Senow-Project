@@ -1,4 +1,4 @@
-.content-blog {
+.blog-content {
   width: 80%;
   margin: auto;
   display: flex;
@@ -9,17 +9,17 @@
   margin-top: 1em;
 }
 
-.blog {
+.blog-article {
   width: 32%;
   border: 1px solid black;
   padding: 0.5em;
 }
 
-.blog img {
+.blog-article img {
   width: 100%;
   height: 200px;
 }
 
-.content-blog p {
+.blog-content p {
   text-indent: 20px;
 }

@@ -33,7 +33,7 @@ h1 span {
   max-width: 980px;
 }
 
-main {
+#game-main {
   display: grid;
   grid-template-columns: 2fr 5fr;
   padding: 20px;
@@ -126,5 +126,3 @@ main {
   grid-row: 1 / 1;
   grid-column: 1 / 1;
 }
-
-
