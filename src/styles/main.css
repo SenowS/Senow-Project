@@ -8,6 +8,12 @@ body {
   font-family: Arial, sans-serif;
 }
 
+
+.dark-mode {
+  background-color: black;
+  color: orange;
+}
+
 .container-about {
   margin: 0 auto;
   width: 1200px;
@@ -32,6 +38,7 @@ header {
   width: 100%;
   font-size: 1.2em;
   padding: 1em;
+  color: black;
 }
 
 .title {

@@ -15,6 +15,7 @@
 .menu1 p {
   margin: 0;
   padding: 0;
+  color: black;
 }
 
 .menu2 {
@@ -51,6 +52,17 @@
   position: absolute;
   background-color: lightyellow;
   top: 350px;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+  width: 125px;
+}
+
+.menu6 {
+  position: absolute;
+  background-color: magenta;
+  color: black;
+  top: 400px;
   margin: auto;
   text-align: center;
   padding: 15px;

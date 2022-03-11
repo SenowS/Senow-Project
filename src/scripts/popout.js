@@ -1,4 +1,5 @@
 document.querySelector('.menu1').addEventListener('click', toggleMenu);
+document.querySelector('.menu6').addEventListener('click', darkMode);
 let menuItems = document.querySelectorAll('.menu-item');
 
 function toggleMenu() {
@@ -6,5 +7,10 @@ function toggleMenu() {
     menuItems[i].classList.toggle('showitem');
   }
 };
+
+function darkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+} 
 
 console.log(menuItems);
