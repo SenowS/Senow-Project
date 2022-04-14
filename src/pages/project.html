@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +13,7 @@
   <link rel="stylesheet" href="../css/style.css">
   <script src="../js/main.js" defer></script>
 </head>
+
 <body>
   <header>
     <div class="container">
@@ -20,33 +22,33 @@
           <img src="../images/Orb.png" alt="">
           <h2>Senow</h2>
         </div>
-          <ul>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="project.html">Projects</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-          </ul>
-       </nav>
+        <ul>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
     </div>
-    </header>
+  </header>
 
   <main>
     <div class="menu1">
       <p>Menu</p>
     </div>
-    
+
     <div class="menu2 menu-item">
-    <a href="about.html">Home</a>
+      <a href="about.html">Home</a>
     </div>
-    
+
     <div class="menu3 menu-item">
       <a href="snake-eye.html">Snake Eyes</a>
     </div>
-    
+
     <div class="menu4 menu-item">
       <a href="color-box.html">ColorBox</a>
     </div>
-    
+
     <div class="menu5 menu-item">
       <a href="match.html">MITT Match</a>
     </div>
@@ -55,65 +57,82 @@
       <p>Light/Dark Mode</p>
     </div>
 
-<div class="content">
-  <div class="container-project">
-    <div class="code-content">
-      <h2>The Snake Eye Project</h2>
-      <p>As my first project that used JavaScript, this Snake Eye assignment was a good start. In it I had to have two dice roll simultaneously and they had to keep rolling until they both showed a one.
-      This of course needed some way to roll the dice which we were fortunate enough to be given as a starting function. For the dice to keep rolling I used a while loop to keep the rolling going. 
-      Once it hit a check to see if both sides hit one. It would show in the console log that you hit it. I was using a running total to keep adding up the dice over time to determine an average. As well as a means of
-      checking if the dice showed the same number but were not both one. All the while this was happening it would be logging each of the rolls. The event ended with a simple boolean telling you that snake eyes was true.
-      </p>
-    <div class="project-image">
-      <img src="../images/Snake Eye Page.PNG" alt="">
-      <img src="../images/Snake Eye Code.PNG" alt="">
-    </div>
-  </div>
+    <div class="content">
+      <div class="container-project">
+        <div class="code-content">
+          <h2>The Snake Eye Project</h2>
+          <p>As my first project that used JavaScript, this Snake Eye assignment was a good start. In it I had to have
+            two dice roll simultaneously and they had to keep rolling until they both showed a one.
+            This of course needed some way to roll the dice which we were fortunate enough to be given as a starting
+            function. For the dice to keep rolling I used a while loop to keep the rolling going.
+            Once it hit a check to see if both sides hit one. It would show in the console log that you hit it. I was
+            using a running total to keep adding up the dice over time to determine an average. As well as a means of
+            checking if the dice showed the same number but were not both one. All the while this was happening it would
+            be logging each of the rolls. The event ended with a simple boolean telling you that snake eyes was true.
+          </p>
+          <div class="project-image">
+            <img src="../images/Snake Eye Page.PNG" alt="">
+            <img src="../images/Snake Eye Code.PNG" alt="">
+          </div>
+        </div>
 
 
-    <div class="code-content">
-      <h2>The Color Box Challenge </h2>
-      <p>Now this project was a little more interesting for me. The idea of pushing something onto my code was a difficult concept for me to get.
-        Once I started to use the console log to see the properties, things started to make much more sense. My color list was another issue of it's own,
-        but I solved this by using an array and putting every color available to me in it. Then it was just a matter of pushing whatever color the user chose
-        on the color option of the box they clicked on. Or if you didn't choose one, I was once again given a function to decide a random color for when the option box was empty.
-        This would push a random color onto whatever color box you click on. There was another loop running that would be checking if all the boxes had their "backgroundColour" property empty.
-        Once there were no boxes left without colours assigned to them you would get a prompt saying you did just that. 
-      </p>
-    <div class="project-image">
-      <img src="../images/Color Box Page.PNG" alt="">
-      <img src="../images/Color Box Code.PNG" alt="">
-    </div>
-  </div>
+        <div class="code-content">
+          <h2>The Color Box Challenge </h2>
+          <p>Now this project was a little more interesting for me. The idea of pushing something onto my code was a
+            difficult concept for me to get.
+            Once I started to use the console log to see the properties, things started to make much more sense. My
+            color list was another issue of it's own,
+            but I solved this by using an array and putting every color available to me in it. Then it was just a matter
+            of pushing whatever color the user chose
+            on the color option of the box they clicked on. Or if you didn't choose one, I was once again given a
+            function to decide a random color for when the option box was empty.
+            This would push a random color onto whatever color box you click on. There was another loop running that
+            would be checking if all the boxes had their "backgroundColour" property empty.
+            Once there were no boxes left without colours assigned to them you would get a prompt saying you did just
+            that.
+          </p>
+          <div class="project-image">
+            <img src="../images/Color Box Page.PNG" alt="">
+            <img src="../images/Color Box Code.PNG" alt="">
+          </div>
+        </div>
 
-    <div class="code-content">
-      <h2>The Mitt Match Game </h2>
-      <p>Next up was a game that many people are familiar with. A memory game which I personally have never been good at.
-        In it I needed to randomize two seperate arrays that contained the images you were trying to match up. Using the timeout functions
-        as well as the toggle option. I was able to simulate a card being shown to you. And I gave 600ms to memorize it. Once you would find a match,
-        the card would be updated to "matched" which would leave the card locked in. Once a card was clicked on the counter would increase by one even no 
-        matter if you got it right or wrong. Eventually once all cards were matched there would be a prompt saying that you won the game and would show just
-        how many clicks it took to get there. Once done with that, a reset option is available and it would reshuffle the game and you could begin again.
-      </p>
-    <div class="project-image">
-      <img src="../images/match page.PNG" alt="">
-      <img src="../images/match code 1.PNG" alt="">
-      <img src="../images/match code 2.PNG" alt="">
-    </div>
-  </div>
-</div>
+        <div class="code-content">
+          <h2>The Mitt Match Game </h2>
+          <p>Next up was a game that many people are familiar with. A memory game which I personally have never been
+            good at.
+            In it I needed to randomize two seperate arrays that contained the images you were trying to match up. Using
+            the timeout functions
+            as well as the toggle option. I was able to simulate a card being shown to you. And I gave 600ms to memorize
+            it. Once you would find a match,
+            the card would be updated to "matched" which would leave the card locked in. Once a card was clicked on the
+            counter would increase by one even no
+            matter if you got it right or wrong. Eventually once all cards were matched there would be a prompt saying
+            that you won the game and would show just
+            how many clicks it took to get there. Once done with that, a reset option is available and it would
+            reshuffle the game and you could begin again.
+          </p>
+          <div class="project-image">
+            <img src="../images/match page.PNG" alt="">
+            <img src="../images/match code 1.PNG" alt="">
+            <img src="../images/match code 2.PNG" alt="">
+          </div>
+        </div>
+      </div>
   </main>
 
-    <footer>
-      <nav class="container">
-        <img src="../images/Orb.png" alt="">
-        <ul>
-          <li><a href="about.html">About Me</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="project.html">Projects</a></li>
-          <li><a href="contact.html">Contact Me</a></li>
-        </ul>
-      </nav> 
-    </footer>
+  <footer>
+    <nav class="container">
+      <img src="../images/Orb.png" alt="">
+      <ul>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </nav>
+  </footer>
 </body>
+
 </html>

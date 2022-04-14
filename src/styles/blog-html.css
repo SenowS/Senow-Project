@@ -1,0 +1,14 @@
+
+.html-content li {
+  text-indent: 1em;
+  margin-bottom: 0.75em;
+}
+
+.html-content ol {
+  padding-left: 2em;
+  margin-bottom: 25px;
+}
+
+.html-content h3 {
+  margin-bottom: 0.60em;
+}
