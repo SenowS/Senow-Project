@@ -9,3 +9,21 @@
   margin-top: 1em;
 }
 
+.container-home {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.container-home p {
+  margin-bottom: 2em;
+  text-indent: 40px;
+}
+
+.container-home h2 {
+  margin-bottom: 1em;
+}
+
+.container-home img {
+  width: 100%;
+  height: 300px;
+}
