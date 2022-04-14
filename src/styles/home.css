@@ -1,0 +1,11 @@
+.home-content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 1.5em;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+

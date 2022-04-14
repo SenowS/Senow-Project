@@ -10,13 +10,12 @@
 }
 
 .ahri-content h2 {
-  color: purple;
+  color: crimson;
   text-align: center;
-  margin-bottom: 1em;
 }
 
-.ahri-content h4 {
-  color: purple;
+.ahri-content h5 {
+  color: crimson;
   text-align: center;
   margin-bottom: 1em;
 }
