@@ -1,0 +1,40 @@
+.ahri-content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 1.5em;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+
+.ahri-content h2 {
+  color: crimson;
+  text-align: center;
+}
+
+.ahri-content h5 {
+  color: crimson;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.ahri-picture {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.ahri-content p {
+  padding-top: 1em;
+}
+
+table {
+  border: 1px solid;
+}
+
+td,
+th {
+  border: 1px solid;
+  padding: 2px;
+}

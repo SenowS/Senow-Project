@@ -1,0 +1,40 @@
+.dst-content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 1.5em;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+
+.dst-content h2 {
+  color: crimson;
+  text-align: center;
+}
+
+.dst-content h5 {
+  color: crimson;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.dst-content h3 {
+  padding-bottom: 0.60em;
+}
+
+.container-dst p {
+  margin-bottom: 1em;
+  text-indent: 40px;
+}
+
+.dst-content img {
+  height: 250px;
+  width: 376px;
+}
+
+.test {
+  border: 2px solid;
+  margin-bottom: 1em;
+}

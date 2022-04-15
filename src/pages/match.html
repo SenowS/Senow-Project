@@ -1,97 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/>
-    <link rel="stylesheet" href="../styles/match.css" />
-    <title>MatchemUp</title>
-    <script src="../scripts/popout.js" defer></script>
-    <link rel="stylesheet" href="../styles/popout.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="../js/main.js" defer></script>
-  </head>
-  <div class="menu1">
-    <p>Menu</p>
-  </div>
-  
-  <div class="menu2 menu-item">
-  <a href="about.html">Home</a>
-  </div>
-  
-  <div class="menu3 menu-item">
-    <a href="snake-eye.html">Snake Eyes</a>
-  </div>
-  
-  <div class="menu4 menu-item">
-    <a href="color-box.html">ColorBox</a>
-  </div>
-  
-  <div class="menu5 menu-item">
-    <a href="match.html">MITT Match</a>
-  </div>
-  
-  <body id="match-body">
-    <h1><span>MITT</span>Match</h1>
-    <div class="main-container">
-      <main id="game-main">
-        <section class="scoreboard">
-          <div class="left-nav">
-            Next Card:
-            <div id="next-card"><i class=""></i></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+  <link rel="stylesheet" href="../styles/match.css" />
+  <title>MatchemUp</title>
+  <script src="../scripts/popout.js" defer></script>
+  <link rel="stylesheet" href="../styles/popout.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/main.js" defer></script>
+</head>
+<div class="menu1">
+  <p>Menu</p>
+</div>
+
+<div class="menu2 menu-item">
+  <a href="home.html">Home</a>
+</div>
+
+<div class="menu3 menu-item">
+  <a href="snake-eye.html">Snake Eyes</a>
+</div>
+
+<div class="menu4 menu-item">
+  <a href="color-box.html">ColorBox</a>
+</div>
+
+<div class="menu5 menu-item">
+  <a href="match.html">MITT Match</a>
+</div>
+
+<body id="match-body">
+  <h1><span>MITT</span>Match</h1>
+  <div class="main-container">
+    <main id="game-main">
+      <section class="scoreboard">
+        <div class="left-nav">
+          Next Card:
+          <div id="next-card"><i class=""></i></div>
+        </div>
+        <div class="right-nav">
+          <div class="score-container">
+            Your Clicks:
+            <span id="clicks">0</span>
           </div>
-          <div class="right-nav">
-            <div class="score-container">
-              Your Clicks:
-              <span id="clicks">0</span>
-            </div>
-            <div class="restart">
-              <i class="fas fa-redo"></i>
-              Restart Game
-            </div>
+          <div class="restart">
+            <i class="fas fa-redo"></i>
+            Restart Game
           </div>
-        </section>
-        <ul id="cards">
-          <li class="card">
-            <i class="fas fa-atom"></i>
-          </li>
-          <li class="card">
-            <i class="fas fa-frog"></i>
-          </li>
-          <li class="card">
-            <i class="fas fa-feather-alt"></i>
-          </li>
-          <li class="card">
-            <i class="fas fa-cogs"></i>
-          </li>
-          <li class="card">
-            <i class="fas fa-anchor"></i>
-          </li>
-          <li class="card">
-            <i class="fas fa-fan"></i>
-          </li>
-          <li class="card">
-            <i class="fas fa-bolt"></i>
-          </li>
-          <li class="card">
-            <i class="fas fa-hat-wizard"></i>
-          </li>
-          <li class="card">
-            <i class="fas fa-apple-alt"></i>
-          </li>
-          <li class="card">
-            <i class="fas fa-bell"></i>
-          </li>
-          <li class="card">
-            <i class="fas fa-bomb"></i>
-          </li>
-          <li class="card">
-            <i class="fas fa-brain"></i>
-          </li>
-        </ul>
-      </main>
-    </div>
-    <script src="../scripts/match.js"></script>
-  </body>
+        </div>
+      </section>
+      <ul id="cards">
+        <li class="card">
+          <i class="fas fa-atom"></i>
+        </li>
+        <li class="card">
+          <i class="fas fa-frog"></i>
+        </li>
+        <li class="card">
+          <i class="fas fa-feather-alt"></i>
+        </li>
+        <li class="card">
+          <i class="fas fa-cogs"></i>
+        </li>
+        <li class="card">
+          <i class="fas fa-anchor"></i>
+        </li>
+        <li class="card">
+          <i class="fas fa-fan"></i>
+        </li>
+        <li class="card">
+          <i class="fas fa-bolt"></i>
+        </li>
+        <li class="card">
+          <i class="fas fa-hat-wizard"></i>
+        </li>
+        <li class="card">
+          <i class="fas fa-apple-alt"></i>
+        </li>
+        <li class="card">
+          <i class="fas fa-bell"></i>
+        </li>
+        <li class="card">
+          <i class="fas fa-bomb"></i>
+        </li>
+        <li class="card">
+          <i class="fas fa-brain"></i>
+        </li>
+      </ul>
+    </main>
+  </div>
+  <script src="../scripts/match.js"></script>
+</body>
+
 </html>
